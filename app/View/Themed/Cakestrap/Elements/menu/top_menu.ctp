@@ -6,7 +6,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button><!-- /.navbar-toggle -->
-		<?php echo $this->Html->Link(__("Theme Parks"), array(
+		<?php echo $this->Html->Link(__("Theme Parks")."V1.1.0", array(
                                             'controller' => 'parks',
                                             'action' => 'index'),
                                             array('class' => 'navbar-brand')); ?>
